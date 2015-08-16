@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C624D8C71B80D6BE00AB51DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C624D8C61B80D6BE00AB51DC /* AppDelegate.swift */; };
+		C624D8C91B80D6BE00AB51DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C624D8C81B80D6BE00AB51DC /* ViewController.swift */; };
+		C624D8CC1B80D6BE00AB51DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C624D8CA1B80D6BE00AB51DC /* Main.storyboard */; };
+		C624D8CE1B80D6BE00AB51DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C624D8CD1B80D6BE00AB51DC /* Images.xcassets */; };
+		C624D8D11B80D6BE00AB51DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C624D8CF1B80D6BE00AB51DC /* LaunchScreen.xib */; };
+		C624D8DD1B80D6BE00AB51DC /* moranTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C624D8DC1B80D6BE00AB51DC /* moranTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C624D8D71B80D6BE00AB51DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C624D8B91B80D6BE00AB51DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C624D8C01B80D6BE00AB51DC;
+			remoteInfo = moran;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C624D8C11B80D6BE00AB51DC /* moran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moran.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C624D8C51B80D6BE00AB51DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C624D8C61B80D6BE00AB51DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C624D8C81B80D6BE00AB51DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C624D8CB1B80D6BE00AB51DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C624D8CD1B80D6BE00AB51DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C624D8D01B80D6BE00AB51DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C624D8D61B80D6BE00AB51DC /* moranTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moranTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C624D8DB1B80D6BE00AB51DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C624D8DC1B80D6BE00AB51DC /* moranTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moranTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C624D8BE1B80D6BE00AB51DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C624D8D31B80D6BE00AB51DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C624D8B81B80D6BE00AB51DC = {
+			isa = PBXGroup;
+			children = (
+				C624D8C31B80D6BE00AB51DC /* moran */,
+				C624D8D91B80D6BE00AB51DC /* moranTests */,
+				C624D8C21B80D6BE00AB51DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C624D8C21B80D6BE00AB51DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C624D8C11B80D6BE00AB51DC /* moran.app */,
+				C624D8D61B80D6BE00AB51DC /* moranTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C624D8C31B80D6BE00AB51DC /* moran */ = {
+			isa = PBXGroup;
+			children = (
+				C624D8C61B80D6BE00AB51DC /* AppDelegate.swift */,
+				C624D8C81B80D6BE00AB51DC /* ViewController.swift */,
+				C624D8CA1B80D6BE00AB51DC /* Main.storyboard */,
+				C624D8CD1B80D6BE00AB51DC /* Images.xcassets */,
+				C624D8CF1B80D6BE00AB51DC /* LaunchScreen.xib */,
+				C624D8C41B80D6BE00AB51DC /* Supporting Files */,
+			);
+			path = moran;
+			sourceTree = "<group>";
+		};
+		C624D8C41B80D6BE00AB51DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C624D8C51B80D6BE00AB51DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C624D8D91B80D6BE00AB51DC /* moranTests */ = {
+			isa = PBXGroup;
+			children = (
+				C624D8DC1B80D6BE00AB51DC /* moranTests.swift */,
+				C624D8DA1B80D6BE00AB51DC /* Supporting Files */,
+			);
+			path = moranTests;
+			sourceTree = "<group>";
+		};
+		C624D8DA1B80D6BE00AB51DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C624D8DB1B80D6BE00AB51DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C624D8C01B80D6BE00AB51DC /* moran */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C624D8E01B80D6BE00AB51DC /* Build configuration list for PBXNativeTarget "moran" */;
+			buildPhases = (
+				C624D8BD1B80D6BE00AB51DC /* Sources */,
+				C624D8BE1B80D6BE00AB51DC /* Frameworks */,
+				C624D8BF1B80D6BE00AB51DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moran;
+			productName = moran;
+			productReference = C624D8C11B80D6BE00AB51DC /* moran.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C624D8D51B80D6BE00AB51DC /* moranTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C624D8E31B80D6BE00AB51DC /* Build configuration list for PBXNativeTarget "moranTests" */;
+			buildPhases = (
+				C624D8D21B80D6BE00AB51DC /* Sources */,
+				C624D8D31B80D6BE00AB51DC /* Frameworks */,
+				C624D8D41B80D6BE00AB51DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C624D8D81B80D6BE00AB51DC /* PBXTargetDependency */,
+			);
+			name = moranTests;
+			productName = moranTests;
+			productReference = C624D8D61B80D6BE00AB51DC /* moranTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C624D8B91B80D6BE00AB51DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = GeekBand;
+				TargetAttributes = {
+					C624D8C01B80D6BE00AB51DC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C624D8D51B80D6BE00AB51DC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C624D8C01B80D6BE00AB51DC;
+					};
+				};
+			};
+			buildConfigurationList = C624D8BC1B80D6BE00AB51DC /* Build configuration list for PBXProject "moran" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C624D8B81B80D6BE00AB51DC;
+			productRefGroup = C624D8C21B80D6BE00AB51DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C624D8C01B80D6BE00AB51DC /* moran */,
+				C624D8D51B80D6BE00AB51DC /* moranTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C624D8BF1B80D6BE00AB51DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C624D8CC1B80D6BE00AB51DC /* Main.storyboard in Resources */,
+				C624D8D11B80D6BE00AB51DC /* LaunchScreen.xib in Resources */,
+				C624D8CE1B80D6BE00AB51DC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C624D8D41B80D6BE00AB51DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C624D8BD1B80D6BE00AB51DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C624D8C91B80D6BE00AB51DC /* ViewController.swift in Sources */,
+				C624D8C71B80D6BE00AB51DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C624D8D21B80D6BE00AB51DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C624D8DD1B80D6BE00AB51DC /* moranTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C624D8D81B80D6BE00AB51DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C624D8C01B80D6BE00AB51DC /* moran */;
+			targetProxy = C624D8D71B80D6BE00AB51DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C624D8CA1B80D6BE00AB51DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C624D8CB1B80D6BE00AB51DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C624D8CF1B80D6BE00AB51DC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C624D8D01B80D6BE00AB51DC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C624D8DE1B80D6BE00AB51DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C624D8DF1B80D6BE00AB51DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C624D8E11B80D6BE00AB51DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = moran/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C624D8E21B80D6BE00AB51DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = moran/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C624D8E41B80D6BE00AB51DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = moranTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moran.app/moran";
+			};
+			name = Debug;
+		};
+		C624D8E51B80D6BE00AB51DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = moranTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moran.app/moran";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C624D8BC1B80D6BE00AB51DC /* Build configuration list for PBXProject "moran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C624D8DE1B80D6BE00AB51DC /* Debug */,
+				C624D8DF1B80D6BE00AB51DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C624D8E01B80D6BE00AB51DC /* Build configuration list for PBXNativeTarget "moran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C624D8E11B80D6BE00AB51DC /* Debug */,
+				C624D8E21B80D6BE00AB51DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C624D8E31B80D6BE00AB51DC /* Build configuration list for PBXNativeTarget "moranTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C624D8E41B80D6BE00AB51DC /* Debug */,
+				C624D8E51B80D6BE00AB51DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C624D8B91B80D6BE00AB51DC /* Project object */;
+}
