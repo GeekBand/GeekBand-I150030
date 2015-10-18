@@ -1,0 +1,19 @@
+//
+//  MRanPrefixHeader.pch
+//  MRan
+//
+//  Created by 凌空 on 15/10/11.
+//  Copyright © 2015年 fharmony. All rights reserved.
+//
+
+#ifndef MRanPrefixHeader_pch
+#define MRanPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "MyConst.h"
+
+#import "MJExtension.h"
+#import <UIkit/UIkit.h>
+
+#endif /* MRanPrefixHeader_pch */

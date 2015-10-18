@@ -1,0 +1,8 @@
+platform :'ios','7.0'
+pod 'PureLayout','~>3.0.1'
+pod 'AFNetworking','~>2.6.0'
+pod 'MJExtension','~>2.5.12'
+pod 'SDWebImage','~>3.7.3'
+pod 'MBProgressHUD','~>0.9.1'
+pod 'SSKeychain','~>1.2.3'
+pod 'MJRefresh','~>2.4.12'
