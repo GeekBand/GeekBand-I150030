@@ -4,7 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIkit.h>
+#import "UIKit.h"
 
 @interface MRRegisterTestViewController : UIViewController
 @end
